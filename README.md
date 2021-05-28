@@ -67,6 +67,15 @@ cp check_air_quality.config.json.example check_air_quality.config.json
         ]
 ```
 
+### Configure the site to get air quality measurements for
+Refer to EPA AirWatch API documentation to get a list of sites. The example script has three sites and Box Hill has been selected.  
+
+### Configure the threshold
+I set the threshold for PM2.5 to 100. You can choose something more appropriate for your needs.  
+```
+        "threshold": 100
+```
+
 ### Schedule the script to run
 Replace user with your username (e.g. pi if on a Raspberry Pi) in the line below.  
 More info about crontab: [https://crontab.guru/#20\_\*\_\*\_\*\_\*](https://crontab.guru/#20_*_*_*_*)  
