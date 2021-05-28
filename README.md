@@ -1,8 +1,10 @@
 # Air Quality Alert
 
-This script sends an SMS alert when air quality is poor.  
+This script sends an SMS alert when air quality is hazardous.  
 
-I created the script after waking up one morning to very poor air quality due to a lot of smoke from the [2019-2020 Australian busfire season](https://en.wikipedia.org/wiki/2019-20_Australian_bushfire_season).
+I woke up one morning in January 2020 and discovered that the air quality in Melbourne had [dropped to hazardous levels](https://www.abc.net.au/news/2020-01-14/melbourne-air-quality-drops-to-hazardous-from-bushfire-smoke/11865178) due to a lot of smoke from the [2019-2020 Australian busfire season](https://en.wikipedia.org/wiki/2019-20_Australian_bushfire_season). This hazardous air quality was extremely concerning to my wife and I with our newborn.
+
+I wanted to receive an SMS message whenever PM2.5 levels exceeded 300 so that we could be more alert and take action (wear a mask, try to filter the air). But I didn't have any air quality sensors at home.
 
 ## APIs
 Two APIs are used:  
