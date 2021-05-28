@@ -1,0 +1,20 @@
+{
+    "epa": {
+        "api_key": "",
+        "api_url": "https://gateway.api.epa.vic.gov.au/environmentMonitoring/v1/sites/",
+        "site": "box_hill",
+        "sites": {
+            "bairnsdale": "9f6648ad-e420-464e-8967-ad7ad6de9f25",
+            "box_hill": "77062cb7-3e3b-4984-b6d0-03dda76177f2",
+            "mooroolbark": "a535938e-57b9-4b1d-8749-5cb38457feae"
+        },
+        "threshold": 100
+    },
+    "telstra": {
+        "client_key": "",
+        "client_secret": "",
+        "recipients": [
+            "+61491570006"
+        ]
+    }
+}
